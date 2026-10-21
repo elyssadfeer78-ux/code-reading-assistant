@@ -1,0 +1,6 @@
+interface:
+  display_name: "代码阅读助手"
+  short_description: "直接读源码，逐轮搭框架、讲重点、出题，核对理解后再推进代码阅读"
+  default_prompt: "使用 $code-reading-assistant 陪我理解当前工程代码，先定位一小步、搭框架并讲解，再请我解释实现并定位依据，核对我的理解后再继续。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 构建产物（用 scripts/build_packages.py 重新生成）
+dist/
+*.zip
+
+# 本地安装与学习记录（安装/运行产生，不入库）
+.codebuddy/
+.agents/
+.codex/
+.learning/
+
+# 备份与临时文件
+*.bak-*
+*.tmp
+*.backup-*
+.DS_Store
